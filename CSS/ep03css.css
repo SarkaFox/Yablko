@@ -1,0 +1,60 @@
+body, html {
+  margin: 0;
+}
+
+
+/*
+block level elementy: které zaplní celou šírku, poskytnutá jejich rodiči, odentrované na konci, př.: odstavce, nadpisy, ul, li, ... často obalují jiné elementy;
+inline level elementy: př.: link, strong, nejsou samostatně na dalším řádku, plavou v textu;
+block-inline elementy:
+*/
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.special {
+  color: #333;
+  background: #75c6c5;
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid black;
+  overflow: hidden; /*další varianty: scroll, auto */
+}
+
+body {
+  color: #fff;
+  background: #FE3747;
+  text-align: center;
+  font-family: Georgia, Tahoma, Verdana; /*lze jich zadat více, v tom případě pokud systém umí 1. bere ten, pokud ne, jde na 2. a tak dále. Existuje: cssfontstack.com pro nahlédnutí na fonty*/
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: "Arial Rounded MT Bold"
+}
+
+h2 {
+  color: pink;
+  display: none;
+}
+
+p {
+  line-height: 22px;
+  margin-top: 50px; /*Nastavení elemntu na střed. Nelze přes text-align: center - to zarovnává text. P nám zabírá 50%, zbývá 50% které rozdělíme na 2 části, pro pravou a levou stranu, tedy 25% na každé straně. Nebo lze použít auto!!!*/
+}
+a {
+  color: #FE3747;
+  background: #fff;
+  text-decoration: none;
+  padding: 2px 6px 3px 6px; /*dle směru hodinovývh ručiček*/
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+a:hover {
+  background: pink;
+}

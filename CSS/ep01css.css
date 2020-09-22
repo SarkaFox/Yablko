@@ -1,0 +1,58 @@
+body {
+  width: 600px;
+  padding: 50px;
+}
+h1 {
+  font-family: 'Lucida Grande'
+  font-size: 42px;
+  margin: 0;
+}
+h2 {
+  color: lightcoral;
+  font-size: 16px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+p {
+  color: dimgrey;
+  font-size: 16px;
+  font-family: 'Open Sans';
+  /*line-height: 26px;*/
+}
+strong {
+  color: lightcoral;
+}
+#topping {
+  color: #bada55;
+}
+.important {
+  color: blue;
+}
+.controls {
+  text-align: center;
+}
+.btn {
+  color: #ccc;
+  font-size: 16px;
+  padding: 6px 12px; /*zadám li 2 hodnoty, první značí prostor zdola a zhora, druhá pak zprava a zleva*/
+
+  border: 1px solid #bfbfbf;
+  background: purple;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-success {
+  color: #fff;
+  background: #5CB85C;
+  border: 1px solid #4CAE4C;
+}
+.btn-danger {
+  color: #fff;
+  background: #D9534F;
+  border: 1px solid #D43F3A;
+}
+
+/*
+  . - class
+  # - id
+*/
